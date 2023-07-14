@@ -1,0 +1,124 @@
+.container1 {
+    display: flex;
+    width: 96%;
+    margin: 5% auto;
+    gap: 15px;
+    
+  }
+  
+  .left_side {
+    display: flex;
+    flex-direction: column;
+    width: 56%;
+  }
+ 
+  
+  
+  .left_side >h2 {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Manrope, sans-serif;
+    font-size: 50px;
+    line-height: 1.3;
+    font-weight: 700;
+    background-image: linear-gradient(111deg, #db2c3c, #a40424 50%, #0c2454);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .left_side > p {
+    font-size: 18px;
+    line-height: 1.8rem;
+    text-align: justify;
+  }
+  .right_side{
+    margin: 60px 0px;
+  }
+  .right_side > div {
+    display: flex;
+  }
+  
+  .right_side > div > p {
+    display: inline;
+    width: 87%;
+  }
+  
+  .number {
+    font-size: 50px;
+    letter-spacing: 0.4rem;
+    color: #eaa8c5;
+  }
+  
+  h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Manrope, sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 800;
+    color: #5a5a5a;
+  }
+  
+ .term_condition{
+    display: flex;
+    align-items: center;
+ }
+
+  .right_side > p {
+    top: 80vh;
+    height: 8vh;
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#fff),
+      color-stop(73%, hsla(0, 0%, 100%, 0.27)),
+      to(hsla(0, 0%, 100%, 0))
+    );
+    background-image: linear-gradient(
+      0deg,
+      #fff,
+      hsla(0, 0%, 100%, 0.27) 73%,
+      hsla(0, 0%, 100%, 0)
+    );
+  }
+  
+  @media (max-width: 767px) {
+    .container1 {
+      flex-direction: column;
+      width: 100%;
+      margin: 0;
+    }
+
+    .left_side{
+        width: 92%;
+        margin: auto;
+    }
+
+    .right_side{
+        width: 92%;
+        margin: 60px auto;
+    }
+  }
+
+  @media (max-width: 835px) {
+    h2 {
+      font-size: 40px;
+    }
+   
+  }
+  
+  @media (max-width: 576px) {
+    h2 {
+      font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 376px) {
+    h2 {
+      font-size: 24px;
+    }
+  }
+  
